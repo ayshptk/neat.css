@@ -1,6 +1,6 @@
 {
   "name": "neat.style",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "One line of code to make any raw HTML page beautiful. No classes needed.",
   "main": "index.js",
   "style": "neat.min.css",
