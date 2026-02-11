@@ -1,6 +1,9 @@
 name: Bump Version
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       bump:
@@ -16,10 +19,13 @@ on:
 jobs:
   bump:
     runs-on: ubuntu-latest
+    if: ${{ !startsWith(github.event.head_commit.message, 'v') }}
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -28,7 +34,7 @@ jobs:
       - name: Bump version
         id: bump
         run: |
-          VERSION=$(node scripts/bump.js ${{ inputs.bump }})
+          VERSION=$(node scripts/bump.js ${{ inputs.bump || 'patch' }})
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Commit and tag
