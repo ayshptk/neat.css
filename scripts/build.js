@@ -9,7 +9,7 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>neat.css — One line to make any HTML page beautiful</title>
+  <title>neat-css — One line to make any HTML page beautiful</title>
   <meta name="description" content="A classless CSS framework. One line of code to make any raw HTML page beautiful. No classes, no JavaScript, no config.">
   <link rel="stylesheet" href="neat.css">
 </head>

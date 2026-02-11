@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-neat.css is a classless CSS framework (~2KB gzipped) that styles raw HTML elements using only element selectors. No classes, no JavaScript, no config. It ships as an npm package (`neat.css`).
+neat-css is a classless CSS framework (~2KB gzipped) that styles raw HTML elements using only element selectors. No classes, no JavaScript, no config. It ships as an npm package (`neat-css`).
 
 ## Build Commands
 

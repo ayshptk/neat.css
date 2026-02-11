@@ -1,5 +1,5 @@
 {
-  "name": "neat.css",
+  "name": "neat-css",
   "version": "1.0.1",
   "description": "One line of code to make any raw HTML page beautiful. No classes needed.",
   "main": "index.js",
@@ -27,13 +27,13 @@
   ],
   "author": "ayshptk",
   "license": "MIT",
-  "homepage": "https://github.com/ayshptk/neat.css",
+  "homepage": "https://neat.style",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayshptk/neat.css.git"
+    "url": "git+https://github.com/ayshptk/neat.git"
   },
   "bugs": {
-    "url": "https://github.com/ayshptk/neat.css/issues"
+    "url": "https://github.com/ayshptk/neat/issues"
   },
   "devDependencies": {
     "lightningcss-cli": "^1.31.1",
