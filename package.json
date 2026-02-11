@@ -1,0 +1,42 @@
+{
+  "name": "neat.css",
+  "version": "1.0.0",
+  "description": "One line of code to make any raw HTML page beautiful. No classes needed.",
+  "main": "index.js",
+  "style": "neat.min.css",
+  "scripts": {
+    "build": "npm run build:css && npm run build:html",
+    "build:css": "lightningcss --minify --bundle neat.css -o neat.min.css",
+    "build:html": "node scripts/build.js",
+    "bump": "node scripts/bump.js"
+  },
+  "files": [
+    "neat.min.css",
+    "index.js"
+  ],
+  "keywords": [
+    "css",
+    "classless",
+    "minimal",
+    "typography",
+    "html",
+    "style",
+    "framework",
+    "no-class",
+    "drop-in"
+  ],
+  "author": "ayshptk",
+  "license": "MIT",
+  "homepage": "https://github.com/ayshptk/neat.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayshptk/neat.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayshptk/neat.css/issues"
+  },
+  "devDependencies": {
+    "lightningcss-cli": "^1.31.1",
+    "marked": "^17.0.1"
+  }
+}
