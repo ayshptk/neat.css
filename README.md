@@ -1,16 +1,16 @@
-# neat-css
+# neat.style
 
 One line of code to make any raw HTML page beautiful. No classes. No JavaScript. No config.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/neat-css">
+<link rel="stylesheet" href="https://unpkg.com/neat.style">
 ```
 
 That's it.
 
 ## What it does
 
-Write plain HTML. Get a good-looking page. `neat-css` styles every standard HTML element — headings, paragraphs, links, lists, tables, forms, code blocks, and more — using only element selectors. You never write a single class name.
+Write plain HTML. Get a good-looking page. `neat.style` styles every standard HTML element — headings, paragraphs, links, lists, tables, forms, code blocks, and more — using only element selectors. You never write a single class name.
 
 - **~2 KB gzipped** — lighter than a favicon
 - **Dark mode** — automatic, via `prefers-color-scheme`
@@ -23,31 +23,31 @@ Write plain HTML. Get a good-looking page. `neat-css` styles every standard HTML
 **CDN (recommended):**
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/neat-css">
+<link rel="stylesheet" href="https://unpkg.com/neat.style">
 ```
 
 **npm:**
 
 ```
-npm install neat-css
+npm install neat.style
 ```
 
 Then import the stylesheet in your project:
 
 ```html
-<link rel="stylesheet" href="node_modules/neat-css/neat.min.css">
+<link rel="stylesheet" href="node_modules/neat.style/neat.min.css">
 ```
 
 Or with a bundler:
 
 ```js
-import "neat-css";
+import "neat.style";
 ```
 
 **Script tag (alternative):**
 
 ```html
-<script src="https://unpkg.com/neat-css/index.js"></script>
+<script src="https://unpkg.com/neat.style/index.js"></script>
 ```
 
 ## What gets styled
@@ -94,5 +94,5 @@ MIT
 ## Links
 
 - [GitHub](https://github.com/ayshptk/neat)
-- [npm](https://www.npmjs.com/package/neat-css)
+- [npm](https://www.npmjs.com/package/neat.style)
 - [Website](https://neat.style)
