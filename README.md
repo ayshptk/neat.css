@@ -3,7 +3,13 @@
 One line of code to make any raw HTML page beautiful. No classes. No JavaScript. No config.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/neat.style">
+<link rel="stylesheet" href="https://unpkg.com/neat.style/neat.min.css">
+```
+
+or via script tag:
+
+```html
+<script src="https://unpkg.com/neat.style"></script>
 ```
 
 That's it.
@@ -23,7 +29,13 @@ Write plain HTML. Get a good-looking page. `neat.style` styles every standard HT
 **CDN (recommended):**
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/neat.style">
+<link rel="stylesheet" href="https://unpkg.com/neat.style/neat.min.css">
+```
+
+or via script tag:
+
+```html
+<script src="https://unpkg.com/neat.style"></script>
 ```
 
 **npm:**
@@ -42,12 +54,6 @@ Or with a bundler:
 
 ```js
 import "neat.style";
-```
-
-**Script tag (alternative):**
-
-```html
-<script src="https://unpkg.com/neat.style/index.js"></script>
 ```
 
 ## What gets styled
